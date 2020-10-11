@@ -225,7 +225,7 @@ public class App {
 		Options options = new Options();
 		Option preference = new Option("p", "preference", true,
 				"investment preference(a:aggressive, n:neutral, s:safe)");
-		Option money = new Option("m", "money", true, "the amount of money that you want to invest");
+		Option money = new Option("m", "money", true, "the amount of money that you want to invest(in USD)");
 		preference.setRequired(true);
 		money.setRequired(true);
 		options.addOption(preference);
